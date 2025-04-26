@@ -57,8 +57,7 @@ public class SeedLoginGUI {
         JScrollPane scrollPane = new JScrollPane(seedTextArea);
         scrollPane.setPreferredSize(new Dimension(300, 100));
 
-        JOptionPane.showMessageDialog(parent, scrollPane,
-                "Your seed words (copy them somewhere safe):", JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(parent, scrollPane, "Your seed words (copy them somewhere safe):", JOptionPane.INFORMATION_MESSAGE);
     }
 
     private static void showLoginScreen(JFrame parent) {
